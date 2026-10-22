@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <img class="image-gradient" src="image.png" alt="gradient">
+
+    <div data-aos="fade-down" data-aos-duration="3000" class="layer-blur"></div>
+
+    <header>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to light theme">
+            <img src="dark-mode.svg" alt="">
+        </button>
+        <h1><a href="index.html" data-aos="fade-down" data-aos-duration="1500" class="logo">MECOD</a></h1>
+
+        <nav>
+            <ul>
+                <li><a data-aos="fade-down" data-aos-duration="1500" href="#">COMPANY</a></li>
+                <li><a data-aos="fade-down" data-aos-duration="2000" href="#">FEATURES</a></li>
+                <li><a data-aos="fade-down" data-aos-duration="2500" href="#">RESOURCES</a></li>
+                <li><a data-aos="fade-down" data-aos-duration="3000" href="#">DOCS</a></li>
+            </ul>
+        </nav>
+        <button class="btn-sign" data-aos="fade-down" data-aos-duration="1500">SIGNING</button>
+    </header>
+
+    
+    <main>
+        <div class="content">
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="1500" class="tag-box">
+                <div class="tag">
+                    <a href="index1.html">INTRUCING &wedbar;</a>
+                </div>
+            </div>
+            <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2000">ENAIL FOR <BR> DEVELOPERS</h1>
+            <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="2000" class="description">
+                the best way to reach humans isntade of spam folder diever transactional andmarking emails at scale.
+            </p>
+
+            <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                data-aos-duration="1500" class="buttons">
+                <a href="#" class="btn-get-started">DOCUMENTATION &gt;</a>
+                <a href="#" class="btn-signing-main">GET STARTED &gt;</a>
+
+            </div>
+
+            <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+                data-aos-offset="0" data-aos-duration="3000" class="mobile-3d"
+                url="https://prod.spline.design/GJLv8oIOnhvTwyj3/scene.splinecode"></spline-viewer>
+
+        </div>
+    </main>
+
+    <script src="theme.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.98/build/spline-viewer.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
